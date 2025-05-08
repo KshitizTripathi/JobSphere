@@ -38,3 +38,14 @@
   - **Database**: MySQL
 
 ---
+
+## ✅ Key Highlights
+
+- 🔐 Robust **JWT-based authentication** with persistent session management.
+- 🎭 Clean **role-based access control** for recruiters and job seekers.
+- 📄 Support for **resume and SOP uploads** to personalize applications.
+- 🔍 Advanced **job search** with filtering and fuzzy search capability.
+- 📨 End-to-end **application tracking** with recruiter decisions visible to job seekers.
+- 📈 Easily extendable for **analytics**, **notifications**, and **admin dashboards**.
+
+---
