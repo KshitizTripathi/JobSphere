@@ -55,6 +55,7 @@ public class UserServiceImpl implements UserService {
 		Optional<User> optional = userRepository.findByEmail(userDTO.getEmail());
 		if (optional.isPresent())
 			throw new JobPortalException("USER_FOUND");
+		System.out.println("UserDto"+userDTO);
 		userDTO.setId(Utilities.getNextSequenceId("users"));
 		userDTO.setPassword(passwordEncoder.encode(userDTO.getPassword()));
 		userDTO.setProfileId(profileService.createProfile(userDTO));		
